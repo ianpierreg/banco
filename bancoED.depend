@@ -1,0 +1,413 @@
+# depslib dependency file v1.0
+1462202466 source:c:\users\user\desktop\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1462198408 c:\users\user\desktop\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1462199792 source:c:\users\user\desktop\bancoed\tipodeconta.c
+	<stdio.h>
+	"tipoDeConta.h"
+
+1461988568 c:\users\user\desktop\bancoed\paratodos.h
+
+1462199399 source:c:\users\user\desktop\bancoed\conta.c
+	<stdio.h>
+	"Conta.h"
+
+1461988587 source:c:\users\user\desktop\bancoed\paratodos.c
+
+1462199877 c:\users\user\desktop\bancoed\conta.h
+	<stdio.h>
+	"tipoDeConta.h"
+
+1462202225 source:c:\users\user\desktop\bancoed\cliente.c
+	<stdio.h>
+	"Cliente.h"
+
+1462059432 c:\users\user\desktop\bancoed\cliente.h
+	<stdio.h>
+	"Conta.h"
+
+1462285418 source:c:\users\juliana\downloads\bancoed-2016-05-03\bancoed\cliente.c
+	<stdio.h>
+	"Cliente.h"
+
+1462486083 c:\users\juliana\downloads\bancoed-2016-05-03\bancoed\cliente.h
+	<stdio.h>
+	"Conta.h"
+
+1462488068 c:\users\juliana\downloads\bancoed-2016-05-03\bancoed\conta.h
+	<stdio.h>
+	"tipoDeConta.h"
+
+1462285422 c:\users\juliana\downloads\bancoed-2016-05-03\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1462488553 source:c:\users\juliana\downloads\bancoed-2016-05-03\bancoed\conta.c
+	<stdio.h>
+	"Conta.h"
+
+1462285418 source:c:\users\juliana\downloads\bancoed-2016-05-03\bancoed\tipodeconta.c
+	<stdio.h>
+	"tipoDeConta.h"
+
+1462489019 source:c:\users\juliana\downloads\bancoed-2016-05-03\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1462587101 source:c:\users\user\downloads\bancoed1-2016-05-07\bancoed\cliente.c
+	<stdio.h>
+	"Cliente.h"
+
+1462584614 c:\users\user\downloads\bancoed1-2016-05-07\bancoed\cliente.h
+	<stdio.h>
+	"Conta.h"
+
+1462577315 c:\users\user\downloads\bancoed1-2016-05-07\bancoed\conta.h
+	<stdio.h>
+	"tipoDeConta.h"
+
+1462474918 c:\users\user\downloads\bancoed1-2016-05-07\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1462578950 source:c:\users\user\downloads\bancoed1-2016-05-07\bancoed\conta.c
+	<stdio.h>
+	"Conta.h"
+
+1462586843 source:c:\users\user\downloads\bancoed1-2016-05-07\bancoed\tipodeconta.c
+	<stdio.h>
+	"tipoDeConta.h"
+
+1462586923 source:c:\users\user\downloads\bancoed1-2016-05-07\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1462677104 source:d:\backup_geral\area de trabalho\bancoed\bancoed\cliente.c
+	<stdio.h>
+	"Cliente.h"
+
+1462677104 d:\backup_geral\area de trabalho\bancoed\bancoed\cliente.h
+	<stdio.h>
+	"Conta.h"
+
+1462677104 d:\backup_geral\area de trabalho\bancoed\bancoed\conta.h
+	<stdio.h>
+	"tipoDeConta.h"
+
+1462677106 d:\backup_geral\area de trabalho\bancoed\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1462677104 source:d:\backup_geral\area de trabalho\bancoed\bancoed\conta.c
+	<stdio.h>
+	"Conta.h"
+
+1462677104 source:d:\backup_geral\area de trabalho\bancoed\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1462677104 source:d:\backup_geral\area de trabalho\bancoed\bancoed\tipodeconta.c
+	<stdio.h>
+	"tipoDeConta.h"
+
+1463172864 source:c:\users\user\downloads\bancoed2-2016-05-11\bancoed\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463054315 c:\users\user\downloads\bancoed2-2016-05-11\bancoed\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463174033 c:\users\user\downloads\bancoed2-2016-05-11\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1462981764 c:\users\user\downloads\bancoed2-2016-05-11\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463174054 source:c:\users\user\downloads\bancoed2-2016-05-11\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463174192 source:c:\users\user\downloads\bancoed2-2016-05-11\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463162459 source:c:\users\user\downloads\bancoed2-2016-05-11\bancoed\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463275862 source:d:\backup_geral\area de trabalho\estudos\bancoedcomerro(apagar_com erro_)\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463272065 d:\backup_geral\area de trabalho\estudos\bancoedcomerro(apagar_com erro_)\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463247096 d:\backup_geral\area de trabalho\estudos\bancoedcomerro(apagar_com erro_)\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463247100 d:\backup_geral\area de trabalho\estudos\bancoedcomerro(apagar_com erro_)\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463247096 source:d:\backup_geral\area de trabalho\estudos\bancoedcomerro(apagar_com erro_)\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463276263 source:d:\backup_geral\area de trabalho\estudos\bancoedcomerro(apagar_com erro_)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463275721 source:d:\backup_geral\area de trabalho\estudos\bancoedcomerro(apagar_com erro_)\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463366226 source:c:\users\user\downloads\bancoedcomerro(alteracoesdemenu)-2016-05-14\bancoed\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463366321 c:\users\user\downloads\bancoedcomerro(alteracoesdemenu)-2016-05-14\bancoed\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463301093 c:\users\user\downloads\bancoedcomerro(alteracoesdemenu)-2016-05-14\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463316025 c:\users\user\downloads\bancoedcomerro(alteracoesdemenu)-2016-05-14\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463312650 source:c:\users\user\downloads\bancoedcomerro(alteracoesdemenu)-2016-05-14\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463366321 source:c:\users\user\downloads\bancoedcomerro(alteracoesdemenu)-2016-05-14\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Cliente.h"
+
+1463316067 source:c:\users\user\downloads\bancoedcomerro(alteracoesdemenu)-2016-05-14\bancoed\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463685347 source:c:\users\juliana\desktop\disgra\edfinal\bancoed\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463688301 c:\users\juliana\desktop\disgra\edfinal\bancoed\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463687301 c:\users\juliana\desktop\disgra\edfinal\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463669094 c:\users\juliana\desktop\disgra\edfinal\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463669086 source:c:\users\juliana\desktop\disgra\edfinal\bancoed\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463686650 source:c:\users\juliana\desktop\disgra\edfinal\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463688317 source:c:\users\juliana\desktop\disgra\edfinal\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Cliente.h"
+
+1463675266 source:c:\users\temp.mat-782132.004\desktop\disgra\edfinal\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463675266 c:\users\temp.mat-782132.004\desktop\disgra\edfinal\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463675268 c:\users\temp.mat-782132.004\desktop\disgra\edfinal\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463684738 source:c:\users\temp.mat-782132.004\desktop\disgra\edfinal\bancoed\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463685648 source:c:\users\temp.mat-782132.004\desktop\disgra\edfinal\bancoed\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463685326 c:\users\temp.mat-782132.004\desktop\disgra\edfinal\bancoed\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463685535 source:c:\users\temp.mat-782132.004\desktop\disgra\edfinal\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Cliente.h"
+
+1463682110 source:c:\users\user\downloads\bancoed-2016-05-21\bancoed\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463682110 c:\users\user\downloads\bancoed-2016-05-21\bancoed\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463682110 c:\users\user\downloads\bancoed-2016-05-21\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463858069 c:\users\user\downloads\bancoed-2016-05-21\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463682110 source:c:\users\user\downloads\bancoed-2016-05-21\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463858026 source:c:\users\user\downloads\bancoed-2016-05-21\bancoed\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463859287 source:c:\users\user\downloads\bancoed-2016-05-21\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Cliente.h"
+
+1463918818 source:c:\users\user\downloads\bancoed-2016-05-22\bancoed\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463863536 c:\users\user\downloads\bancoed-2016-05-22\bancoed\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463863536 c:\users\user\downloads\bancoed-2016-05-22\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463940079 c:\users\user\downloads\bancoed-2016-05-22\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463863536 source:c:\users\user\downloads\bancoed-2016-05-22\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463920482 source:c:\users\user\downloads\bancoed-2016-05-22\bancoed\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463928118 source:c:\users\user\downloads\bancoed-2016-05-22\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Cliente.h"
+
+1463967965 source:d:\backup_geral\area de trabalho\bancoed\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1463949762 d:\backup_geral\area de trabalho\bancoed\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463949762 d:\backup_geral\area de trabalho\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463949768 d:\backup_geral\area de trabalho\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+
+1463949762 source:d:\backup_geral\area de trabalho\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1464026725 source:d:\backup_geral\area de trabalho\bancoed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Cliente.h"
+
+1463949764 source:d:\backup_geral\area de trabalho\bancoed\tipodeconta.c
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1463985116 source:c:\users\user\downloads\bancoed-2016-05-23\bancoed\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"Conta.h"
+
+1463985100 c:\users\user\downloads\bancoed-2016-05-23\bancoed\conta.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoDeConta.h"
+
+1464018684 c:\users\user\downloads\bancoed-2016-05-23\bancoed\tipodeconta.h
+	<stdio.h>
+	<stdlib.h>
+

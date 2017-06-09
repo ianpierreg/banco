@@ -1,0 +1,116 @@
+#include <stdio.h>
+#include "tipoDeConta.h"
+
+void InicializaListaTipos (ListaTipo *Lista){
+    Lista->Inicio = NULL;
+    Lista->Fim = NULL;
+}
+
+int VaziaListaTipos (ListaTipo Lista){
+    return (Lista.Inicio == NULL && Lista.Fim == NULL);
+}
+
+void InsereVaziaListaTipos (ListaTipo *Lista, TipoApontadorTipo novoTipo){
+    novoTipo->prox = NULL;
+    Lista->Fim = novoTipo;
+    Lista->Inicio = Lista->Fim;
+}
+
+void InsereFimListaTipos(ListaTipo *Lista, TipoDeConta tipo){
+    TipoApontadorTipo novoTipo = (TipoApontadorTipo) malloc(sizeof(CelulaTipo));
+    novoTipo->tipoDeConta = tipo;
+    if(VaziaListaTipos(*Lista)){
+      InsereVaziaListaTipos(Lista, novoTipo);
+    }
+    else {
+        Lista->Fim->prox = novoTipo;
+        Lista->Fim = novoTipo;
+        Lista->Fim->prox = NULL;
+    }
+}
+
+TipoApontadorTipo buscaTipo (ListaTipo *Lista, int pos){
+    int i;
+    TipoApontadorTipo aux = Lista->Inicio;
+    for (i = 2; i <= pos; i++){
+        aux = aux->prox;
+    }
+    return aux;
+}
+
+void RemoveListaTipos (ListaTipo *Lista, int pos){
+    TipoApontadorTipo aux = buscaTipo(&Lista, pos);
+    TipoApontadorTipo aux2;
+
+
+        if (aux == Lista->Inicio && aux != Lista->Fim){
+            Lista->Inicio = aux->prox;
+            free(aux);
+        }
+
+        if (aux == Lista->Inicio && aux == Lista->Fim){
+        Lista->Fim = NULL;
+        Lista->Inicio = NULL;
+        free(aux);
+
+        }
+
+
+        if (aux == Lista->Fim && aux != Lista->Inicio ){
+            aux2 = buscaTipo(&Lista, pos-1);
+            Lista->Fim = aux2;
+            Lista->Fim->prox = NULL;
+            free(aux);
+        }
+
+        if (aux != Lista->Fim && aux != Lista->Inicio){
+            aux2 = buscaTipo(&Lista, pos-1);
+            aux2->prox = aux->prox;
+            free(aux);
+        }
+    }
+
+
+
+void deposita (ListaTipo *Lista, float valor, int pos){
+    TipoApontadorTipo aux = buscaTipo(Lista, pos);
+    aux->tipoDeConta.saldo += valor;
+}
+
+void saca (ListaTipo *Lista, float valor, int pos){
+    TipoApontadorTipo aux = buscaTipo(Lista, pos);
+    if (valor > aux->tipoDeConta.saldo){
+        printf("Impossível fazer saque! Saldo indisponível \n");
+    }
+    else {
+        aux->tipoDeConta.saldo -= valor;
+    }
+}
+
+void transfere (ListaTipo *Lista, float valor, int from, int to){
+    TipoApontadorTipo aux = buscaTipo(Lista, from);
+    if (valor > aux->tipoDeConta.saldo){
+        printf("Impossível fazer saque! Saldo indisponível \n");
+    }
+    else {
+        aux->tipoDeConta.saldo -= valor;
+    }
+    aux = buscaTipo(Lista, to);
+    aux->tipoDeConta.saldo += valor;
+}
+
+void ImprimeTipoListaTipos(ListaTipo Lista){
+    TipoApontadorTipo Aux = Lista.Inicio;
+    while(Aux != NULL){
+        printf ("%s \n", Aux->tipoDeConta.nomeTipo);
+        printf ("%f \n", Aux->tipoDeConta.saldo);
+        Aux = Aux->prox;
+    }
+     printf ("\n\n");
+}
+
+void ImprimeUmTipo (ListaTipo Lista, int pos){
+    TipoApontadorTipo Aux = buscaTipo(&Lista, pos);
+    printf ("%s \n", Aux->tipoDeConta.nomeTipo);
+    printf ("%f \n\n\n", Aux->tipoDeConta.saldo);
+}
